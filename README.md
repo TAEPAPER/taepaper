@@ -4,8 +4,7 @@
 
 <p align="center">
   <b>박태정 · TAEPAPER</b><br/>
-  LLM · RAG · 모델 서빙 · 백엔드를 만들고 있어요.<br/>
-  작은 변화가 쌓여 확 꺾이는 순간 — <b>tipping point</b>를 향해 갑니다. 🎯
+  LLM · RAG · 모델 서빙 · 백엔드를 만들고 있어요.
 </p>
 
 ---
