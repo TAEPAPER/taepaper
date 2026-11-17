@@ -37,9 +37,9 @@
 
 | Project | 설명 | Stack |
 |---|---|---|
-| [**photo_search**](https://github.com/TAEPAPER/photo_search) | 자연어로 내 사진첩을 검색하는 멀티모달 검색 | CLIP · Qdrant · FastAPI · Streamlit |
-| [**webhook_debugger**](https://github.com/TAEPAPER/webhook_debugger) | 들어오는 HTTP 요청을 실시간으로 보여주는 셀프호스팅 웹훅 디버거 | Java · Spring · WebSocket · Docker |
-| [**displaydog**](https://github.com/TAEPAPER/displaydog) | 화면 위를 걸어 다니는 강아지 친구, macOS 앱 | Swift · Firebase |
+| [**lecture-rag**](https://github.com/TAEPAPER/lecture-rag) | 강의 음성에 질문하면 근거가 나온 시간과 함께 답하는 RAG. 프레임워크 없이 바닥부터 만들고 평가셋으로 개선을 검증 | Whisper · bge-m3 · BM25 · Ollama · FastAPI |
+| [**hhplus-2week-server**](https://github.com/TAEPAPER/hhplus-2week-server) | 잔액 충전, 선착순 쿠폰, 주문/결제를 지원하는 e-커머스 주문 서버. 동시성과 재고 정합성 처리 | Java · Spring Boot · JPA · MySQL · Redis |
+| [**badminton-lesson-record-app**](https://github.com/TAEPAPER/badminton-lesson-record-app) | 레슨 영상을 날짜별로 기록하고 AI로 자세를 분석·코칭하는 앱 | Spring Boot · FastAPI · MediaPipe · Claude API |
 
 ### 🐾 My Farm
 
