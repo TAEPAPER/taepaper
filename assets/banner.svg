@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <radialGradient id="gl"><stop offset="0" stop-color="#F97316" stop-opacity=".45"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+    <style>
+      .t{font-family:'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif}
+      @keyframes draw{from{stroke-dashoffset:420}to{stroke-dashoffset:0}}
+      @keyframes pop{0%,70%{r:0}85%{r:20}100%{r:16}}
+      @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+      .line{stroke-dasharray:420;animation:draw 1.6s ease-out forwards}
+      .dot{animation:pop 2s ease-out forwards}
+      .glow{animation:pulse 2.4s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="#0F172A"/>
+  <text class="t" x="80" y="155" font-size="64" font-weight="800" fill="#F8FAFC" letter-spacing="-1">TAEPAPER</text>
+  <text class="t" x="82" y="200" font-size="18" font-weight="600" fill="#F97316" letter-spacing="3">FINDING MY TIPPING POINT</text>
+  <circle class="glow" cx="900" cy="150" r="70" fill="url(#gl)"/>
+  <path d="M760 230 C 860 230, 940 70, 1060 70" fill="none" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
+  <path class="line" d="M760 230 C 840 230, 880 190, 900 150" fill="none" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round"/>
+  <circle class="dot" cx="900" cy="150" r="16" fill="#F97316"/>
+</svg>
